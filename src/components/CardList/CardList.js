@@ -1,9 +1,8 @@
 import {useDispatch, useSelector} from "react-redux";
 import React, {useEffect, useRef} from "react";
 import {fetchPeople} from "redux/actions";
-import './CardList.scss'
 import PersonCard from  'components/PersonCard/PersonCard'
-
+import './CardList.scss'
 function CardList() {
     const dispatch = useDispatch();
     const isInitialMount = useRef(true);
