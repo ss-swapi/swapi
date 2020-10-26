@@ -1,4 +1,4 @@
-import {GraphQLObjectType, GraphQLString, GraphQLInt } from 'graphql';
+import {GraphQLObjectType, GraphQLString} from 'graphql';
 import PlanetType from 'graphql/schema/types/PlanetType';
 
 const PersonType = new GraphQLObjectType({
@@ -9,7 +9,7 @@ const PersonType = new GraphQLObjectType({
             resolve: person => person.name,
         },
         height: {
-            type: GraphQLInt,
+            type: GraphQLString,
             resolve: person => person.height,
         },
         mass: {

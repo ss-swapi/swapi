@@ -6,10 +6,10 @@ function PersonCard(props) {
         <div className="person-card">
             <h3>{props.name}</h3>
             <ul className="card-details-list">
-                <li>Origin: <strong>{props.homeworld.name}</strong></li>
-                <li>Height: <strong>{props.height}</strong></li>
-                <li>Mass: <strong>{props.mass}</strong></li>
-                <li>Birth Date: <strong>{props.birthYear}</strong></li>
+                <li><strong>Origin</strong>: {props.homeworld.name}</li>
+                <li><strong>Height</strong>: {props.height}</li>
+                <li><strong>Mass</strong>: {props.mass}</li>
+                <li><strong>Birth Date</strong>: {props.birthYear}</li>
             </ul>
         </div>
     );

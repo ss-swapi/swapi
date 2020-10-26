@@ -4,8 +4,6 @@ import store from 'redux/store'
 import {Provider} from "react-redux";
 import CardList from 'components/CardList/CardList';
 
-
-
 function App() {
     return (
         <Provider store={store}>
@@ -13,7 +11,6 @@ function App() {
                 <CardList />
             </div>
         </Provider>
-
     );
 }
 
