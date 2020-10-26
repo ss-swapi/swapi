@@ -1,7 +1,5 @@
 import {  GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLList}  from 'graphql';
 import PersonType from 'graphql/schema/types/PersonType';
-// Construct a schema, using GraphQL schema language
-
 
 const PersonListType = new GraphQLObjectType({
     name: 'PersonList',
