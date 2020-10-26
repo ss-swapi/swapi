@@ -41,7 +41,6 @@ function CardList() {
             <div className="text-center">
                 <button onClick={() => dispatch(fetchPeople(next))} disabled={!next || isLoading}>{getButtonText(next, isLoading)}</button>
             </div>
-
         </div>
     );
 }
